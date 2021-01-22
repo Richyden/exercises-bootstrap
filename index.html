@@ -44,38 +44,83 @@
 
 		<div class="container">
 			<div class="row">
-				<div class="col">Nouvel</div>
-				<div class="col mark">Exercice</div>
-			</div>
-		</div>
+				<div class="col-4">Nouvel</div>
+				<div class="col-8"><strong>Exercice</strong>
+					<div class="row">
+						<div class="col-2">ces</div>
+						<div class="col-8">blocs sont tous</div>
+						<div class="col-2">dans</div>
+					</div>
 
-		<!--<div class="container">
-			<div class="row">
-				<div class="col-md-8">Main Content</div>
-				<div class="col-md-4">Sidebar</div>
-			</div>
-		</div>
+					<div class="row">
+						<div class="col-3">la même</div>
+						<div class="col-6">div où est</div>
+						<div class="col-3">inscrit <strong>"Exercice</strong></div>
+					</div>
 
-		<div class="container px-5">
-			<div class="row gx-5">
-				<div class="col">
-					<div class="p-3 border">Custom column padding</div>
-				</div>
-				<div class="col">
-					<div class="p-3 border">Custom column padding</div>
+					<div class="row">
+						<div class="col-5">comment</div>
+						<div class="col-2">est</div>
+						<div class="col-5">ce possible ?</div>
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container">
-			<div class="row gy-12">
-				<div class="col-6">1</div>
-				<div class="col-6">2</div>
-				<div class="col-6">3</div>
-				<div class="col-6">4</div>
-			</div>
-		</div> -->
+			12 colonnes
+		  <div class="row justify-content-between">
+		  	<div class="col-2 offset-md-1 order-1">Bloc 1 de 2</div>
+		  	<div class="col-2 order-3">Bloc 2 de 2</div>
+		  	<div class="col-2 order-2">Bloc 3 de 2</div>
+		  </div>
+		</div>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-6">
+					6 colonnes
+					<div class="row">
+						<div class="col-4">4 colonnes</div>
+						<div class="col-4 offset-md-4">4 colonnes</div>
+					</div>
+				</div>
+
+				<div class="col-6">
+					6colonnes
+					<div class="row">
+						<div class="col-4">4 colonnes</div>
+						<div class="col-8">8 colonnes</div>
+					</div>
+				</div>		
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-3">Logo</div>
+				<div class="col-8">Titre</div>
+			</div>
+
+			<div class="row">
+				<div class="col">Hero</div>
+			</div>
+
+			<div class="row justify-content-between">
+				<div class="col-3">Zone 1</div>
+				<div class="col-3">Zone 2</div>
+				<div class="col-3">Zone 3</div>
+			</div>
+
+			<div class="row justify-content-between">
+				<div class="col-5">Zone 5</div>
+				<div class="col-5">Zone 6</div>
+			</div>
+
+			<div class="row">
+				<div class="col">Footer</div>
+			</div>
+		</div>
 
 		<script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
